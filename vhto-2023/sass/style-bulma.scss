@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+// Set your brand colors
+$yellow: rgb(239, 223, 0);
+$black: rgb(0, 0, 0);
+$white: rgb(255, 255, 255);
+$purple: rgb(164, 56, 168);
+$green: rgb(1, 150, 110);
+$red: rgb(235, 51, 0);
+$blue: rgb(0, 50, 160);
+
+// Update Bulma's global variables
+$family-primary: "Merriweather";
+$family-secondary: "Merriweather Sans";
+//$family-sans-serif: "Roboto", sans-serif;
+$primary: $black;
+$info: $yellow;
+$link: $blue;
+$success: $green;
+$warning: $purple;
+$danger: $red;
+
+$card-radius: 1rem;
+// Update some of Bulma's component variables
+
+// Import only what you need from Bulma
+@import "../myBulma/bulma/bulma.sass";
+// @import "../myBulma/bulma/sass/utilities/_all.sass";
+// @import "../myBulma/bulma/sass/base/_all.sass";
+// @import "../myBulma/bulma/sass/elements/button.sass";
+// @import "../myBulma/bulma/sass/elements/container.sass";
+// @import "../myBulma/bulma/sass/elements/title.sass";
+// @import "../myBulma/bulma/sass/form/_all.sass";
+// @import "../myBulma/bulma/sass/components/navbar.sass";
+// @import "../myBulma/bulma/sass/layout/hero.sass";
+// @import "../myBulma/bulma/sass/layout/section.sass";
+
+// custom css
+.is-size-1 {
+    font-family: $family-secondary;
+}
+
+.title {
+    font-family: $family-secondary;
+}
+
+.card {
+    height: 100%;
+}
+
+.banner-home {
+    color: $primary-invert;
+}
+
+.activity-title {
+    color: white;
+    border-radius: 2vh;
+}
+
+.activity-excerpt {
+    color: black;
+}
+
+.activity-partners {
+    color: black;
+}
+
+.social-icons {
+    color: $primary;
+}
+
+.nav-brand {
+    padding-left: 1.5vh;
+}
+
+.footer-link {
+    color: hsl(0deg, 0%, 29%);
+}
+
+.footer-link:hover {
+    color: $link;
+}
+
+.has-background-green {
+    background-color: $green;
+}
+
+.has-background-purple {
+    background-color: $purple;
+}
+
+.has-background-red {
+    background-color: $red;
+}
+
+.has-background-yellow {
+    background-color: $yellow;
+}
+
+body {
+    hyphens: auto;
+}
+
+.conference-links a:hover {
+    color: $purple;
+}
+
+.conference-links a {
+    color: white;
+}
+
+.banner-background-1 {
+    background: url("assets/images/banner-1.png") no-repeat left center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+}
+
+.banner-background-2 {
+    background: url("assets/images/banner-2.png") no-repeat right center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.banner-background-3 {
+    background: url("assets/images/banner-3.png") no-repeat right center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+}
+
+.banner-background-4 {
+    background: url("assets/images/banner-4.png") no-repeat left center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+}
+
+.banner-background-5 {
+    background: url("assets/images/banner-5.png") no-repeat right center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+}
+
+.banner-background-6 {
+    background: url("assets/images/banner-6.png") no-repeat right center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+}
+
+.banner-background-7 {
+    background: url("assets/images/banner-7.png") no-repeat right center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+}
+
+.banner-background-8 {
+    background: url("assets/images/banner-8.png") no-repeat right center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+}
